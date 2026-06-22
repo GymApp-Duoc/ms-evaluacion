@@ -7,7 +7,7 @@ spring:
   datasource:
     url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/db_gym_evaluaciones?createDatabaseIfNotExist=true&serverTimezone=UTC}
     username: root
-    password: ${SPRING_DATASOURCE_PASSWORD:Duoc.2026}
+    password:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
